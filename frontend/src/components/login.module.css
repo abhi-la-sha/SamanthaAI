@@ -1,0 +1,143 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100vh;
+}
+
+/* Login container */
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 100px;
+}
+
+/* Login content */
+.login-content {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Heading */
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+/* Subtitle */
+.login-subtitle {
+  font-size: 16px;
+  color: #a0a0a0;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+/* Form group */
+.form-group {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+/* Input styling */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 4px;
+  color: #e0e0e0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #666666;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(32, 199, 216, 0.5);
+}
+
+/* Remember me section */
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.remember-me label {
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+/* Login button */
+.login-button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 24px;
+  background: linear-gradient(90deg, #20c7d8 0%, #2196f3 100%);
+  color: white;
+  transition: opacity 0.2s;
+}
+
+.login-button:hover {
+  opacity: 0.9;
+}
+
+/* Login links */
+.login-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.forgot-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.signup-text {
+  font-size: 14px;
+  color: #e0e0e0;
+  margin: 8px 0;
+}
+
+.signup-link {
+  color: #20c7d8;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
