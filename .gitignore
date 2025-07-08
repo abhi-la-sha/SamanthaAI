@@ -1,0 +1,15 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+*.pickle
+.env
+
+# Node.js
+node_modules/
+dist/
+
+# Sensitive files
+credentials.json
+token.pickle
+knowledge.json
